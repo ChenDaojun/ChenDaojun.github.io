@@ -1,3 +1,20 @@
-# This is my blog guide
+# 搭建个人博客指南
+> Todo...
+## 声明
+> 所用工具
+> > Debian Testing 
+> >
+> > Nodejs Version: v14.19.1
+> >
+> > NPM Version: 8.6.0
+> >
+> > Text Editor: Visual Studio Code
+> >
+> > Docsify Version: 4.4.4
+> >
+> > Browser: Google Chrome Dev Edition
+> > 
+> > 网络环境: 可正常访问 Google，Github 等
 
-> 先这样写吧，应该是一篇关于如何搭建个人博客的教程
+## 初入
+> todo...
