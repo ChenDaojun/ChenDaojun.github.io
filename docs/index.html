@@ -9,12 +9,20 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
+  <style type="text/css">
+  .content {
+  overflow: auto;
+}
+  </style>
+
   <div id="app"></div>
   <script>
     window.$docsify = {
       loadSidebar: true,
+      loadNavbar: true,
+      maxLevel: 6,
       name: '',
-      repo: ''
+      repo: 'ChenDaojun/ChenDaojun.github.io'
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>

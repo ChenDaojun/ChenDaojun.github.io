@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md -->
 
 * [首页](README)
-* [指南](guide/guide.md)
+* [指南](guide/blog_guide.md)
