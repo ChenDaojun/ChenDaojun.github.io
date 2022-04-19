@@ -9,21 +9,14 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <style type="text/css">
-  .content {
-  overflow: auto;
-}
-  </style>
-
   <div id="app"></div>
   <script>
     window.$docsify = {
       loadSidebar: true,
       auto2top: true,
-      subMaxLevel: 6,
-      alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-    },
+      subMaxLevel: 3,
+      loadNavbar: true,
+      //定义导航栏
     
     search: {
       paths: 'auto',
@@ -34,6 +27,7 @@
       repo: 'ChenDaojun/ChenDaojun.github.io'
     }
   </script>
+  <script src="//unpkg.com/docsify"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
