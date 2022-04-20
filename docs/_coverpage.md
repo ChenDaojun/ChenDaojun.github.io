@@ -9,4 +9,4 @@
 - 无荣誉
 
 [GitHub](https://github.com/ChenDaojun/ChenDaojun.github.io)
-[Get Started](/README.md)
+[开始](/README.md)
