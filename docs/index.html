@@ -40,31 +40,25 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script>
-    var gitalk = new Gitalk({
-      clientID: '9353618416481fc78cd6',
-      clientSecret: 'ed2bb0f3f2314c93532dbbe1b05a938270335e9b',
-      repo: 'chendaojun.github.io',
-      owner: 'ChenDaojun',
-      admin: ['ChenDaojun'],
-      title: location.hash.match(/#(.*?)([?]|$)/)[1],
-      id: location.hash.match(/#(.*?)([?]|$)/)[1],
-    })
-    // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
-    window.onhashchange = function(event){
-      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
-        location.reload()
-      }
-    }
-    // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
-    // gitalk.render('gitalk-container')
-  </script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '9353618416481fc78cd6',
+    clientSecret: 'ff630ed7064e60319381af7605020f5fab1218e3',
+    repo: 'blog-gittlak',
+    owner: 'ChenDaojun',
+    admin: ['ChenDaojun'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false,
+    id: decodeURI(window.location.pathname),
+  })
+</script>
 </body>
 </html>
