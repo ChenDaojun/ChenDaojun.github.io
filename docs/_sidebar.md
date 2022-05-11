@@ -8,3 +8,4 @@
 
 * 记事
   * [网络设置问题](notes/1.md)
+  * [个人记事](notes/my-notes.md)
