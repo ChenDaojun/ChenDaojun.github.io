@@ -6,7 +6,7 @@
 
 个人学艺不精，文章仅供参考，也请诸位广发评论助我改进文章。
 
-本博客所有源码皆已开源，使用 [docsify](https://docsify.js.org/#/) 和 进行开发,
+本博客所有源码皆已开源，使用 [docsify](https://docsify.js.org/#/) 和 [Gitalk](https://github.com/gitalk/gitalk) 进行开发,
 
 联系方式:
 
