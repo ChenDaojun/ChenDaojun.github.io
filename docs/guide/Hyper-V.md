@@ -4,12 +4,18 @@
 
 准备：
 Windows 11 ISO，可以从此处下载
+
 一台运行 Windows 10 及以上的电脑
+
 ● 足够多的内存，例如 8G，16G以上更好
+
 ● CPU支持 Windows 11 的要求，因为 Windows 虚拟机就是这样，吃资源，按需给
+
 ● 足够大的硬盘，机械次之，固态最好
 
+
 [X] 撰写完Hyper-V部分
+
 [X] 撰写Windows 11安装部分
 
 今日是 2022 年 6 月 25 日
@@ -17,14 +23,21 @@ Windows 11 ISO，可以从此处下载
 由于是和我弟一起使用的电脑，我萌生了在虚拟机安装 Windows 11 的想法，起初尝试过 VMware Workstation Pro ， 但由于启用 TPM模块需要加密，我嫌麻烦，就尝试使用 Hyper-V作为虚拟化实现，来安装 Windows 11。
 
 首先通过 Microsoft 的官方文档来开启 Hyper-V
+
 在具有 管理员权限 的 PowerShell 上输入这条命令：
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+
 这是命令来源的文档：Hyper-V 安装
+
 安装完成后照例重启一次
+
 其他的安装方式可以参照我给出的链接，微软已经有详细说明
 
 然后打开 Hyper-V 管理器
+
 重启后，打开 Hyper-V 管理器
+
 使用 Windows 的 搜索功能 搜索Hyper-V这几个关键字，出现 Hyper-V 管理器后点击
 
 
